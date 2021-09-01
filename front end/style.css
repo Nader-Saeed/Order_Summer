@@ -1,0 +1,138 @@
+body
+{
+    width: 1440px;
+    background-image: url(order-summary-component-main/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1540px 380px;
+    background-color: hsl(225, 100%, 94%);
+}
+.cont
+{
+   width: 350px;
+   height: 550px;
+   position: relative;
+   top: 80px;
+   left: 40%;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0.5px 9px 25px -9.5px hsl(224deg 23% 55%);
+    text-align: center;
+}
+.imag
+{
+    position: absolute;
+}
+.imag img
+{
+    width: 350px;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+}
+.h
+{
+    position: relative;
+    top: 210px;
+    font-family: Red_Hat_Display1;
+
+}
+@font-face
+{
+    font-family: Red_Hat_Display1;
+    src: url(Red_Hat_Display/RedHatDisplay-Black.ttf);
+}
+.para
+{
+    width: 300px;
+    position: relative;
+    top: 210px;
+    font-size: 14px;
+    left: 40px;
+    font-family: Red_Hat_Display2;
+    height: 20px;
+    color: hsl(224, 23%, 55%);
+}
+@font-face
+{
+    font-family: Red_Hat_Display2;
+    src: url(Red_Hat_Display/RedHatDisplay-Regular.ttf);
+}
+.ord
+{
+    position: relative;
+    width: 280px;
+    height: 75px;
+    background-color: hsla(225, 100%, 94%, 0.514);
+    top: 250px;
+    left: 35px;
+    border-radius: 10px;
+}
+.ord img
+{
+    width: 43px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.ord h5
+{
+    position: absolute;
+    font-family: Red_Hat_Display1;
+    top: -3px;
+    left: 70px;
+}
+.ord span
+{
+    position: absolute;
+    font-family: Red_Hat_Display2;
+    font-size: 14px;
+    top: 40px;
+    left: 70px;
+    color: hsl(224, 23%, 55%);
+}
+.a1
+{
+    position: absolute;
+    font-family: Red_Hat_Display1;
+    font-size: 13px;
+    right: 20px;
+    top: 30px;
+    color:  hsl(245, 75%, 52%);
+}
+.a1:hover
+{
+    text-decoration:none;
+    color: hsl(225, 44%, 60%);
+}
+.ord button
+{
+    position: relative;
+    width: 270px;
+    height: 40px;
+    border: none;
+    background-color:  hsl(245, 75%, 52%);
+    border-radius: 9px;
+    top: 100px;
+    color: hsl(225, 100%, 94%);
+    font-family: Red_Hat_Display1;
+    font-size: 12px;
+    box-shadow: 0.5px 9px 25px -12px hsl(245, 75%, 52%);
+    cursor:pointer;
+}
+.ord button:hover
+{
+    background-color: hsl(245, 81%, 69%);
+}
+.a2
+{
+    position: relative;
+    top: 120px;
+    font-family: Red_Hat_Display1;
+    text-decoration: none;
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+}
+.a2:hover
+{
+    color: hsl(223, 47%, 23%);
+}
